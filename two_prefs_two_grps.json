@@ -1,0 +1,61 @@
+{
+  "title" : "my_pane_title",
+  "groups" : [
+    {
+      "title" : "my_group_title",
+      "preferences" : [
+        {
+          "name" : "my_dropdown_pref",
+          "type" : "integer",
+          "enum" : [1,2,3,4,5],
+          "default" : 5,
+          "control" : "select",
+          "title" : "my_dropdown_title",
+          "description" : "my_dropdown_description",
+          "labels" : [
+            "my_dropdown_one",
+            "my_dropdown_two",
+            "my_dropdown_three",
+            "my_dropdown_four",
+            "my_dropdown_five"
+          ]
+        }
+      ]
+    },
+    {
+      "title" : "my_other_group_title",
+      "preferences" : [
+        {
+          "name" : "my_pref",
+          "type" : "array",
+          "items" : "location",
+          "control" : "locationList",
+          "title" : "my_location_title",
+          "description" : "my_location_description",
+          "dialogTitle" : "my_location_picker_title",
+          "dialogPrompt" : "my_location_picker_prompt",
+          "buttonTitle" : "my_location_picker_button"
+        }
+      ]
+    }
+  ],
+  "strings" : {
+    "en" : {
+      "my_pane_title" : "My Settings",
+      "my_group_title" : "Integers",
+      "my_dropdown_title" : "Favorite number",
+      "my_dropdown_description" : "Choose a number from one to five",
+      "my_dropdown_one" : "One",
+      "my_dropdown_two" : "Two",
+      "my_dropdown_three" : "Three",
+      "my_dropdown_four" : "Four",
+      "my_dropdown_five" : "Five",
+      "my_other_group_title" : "Locations",
+      "my_location_title" : "Favorite cities",
+      "my_location_description" : "Pick your favorite cities",
+      "my_location_picker_title" : "Find a new city",
+      "my_location_picker_prompt" : "Start typing a city name to search",
+      "my_location_picker_button" : "Add new city..."
+    }
+  }
+}
