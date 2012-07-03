@@ -250,8 +250,8 @@
           "title": "enable_notifications_title",
           "description": "enable_notifications_description",
           "labels": [
-            "yes",
-            "no"
+            "ON",
+            "OFF"
           ]
         },       
         {
@@ -341,8 +341,8 @@
       "break_interval_300": "5 hrs",      
       "break_interval_330": "5 hrs 30 mins",      
       "break_interval_360": "6 hrs",     
-      "yes": "Yes",
-      "no": "No",
+      "ON": "ON",
+      "OFF": "OFF",
       "0:00": "12:00 am",
 	  "0:30": "12:30 am",
       "1:00": "1:00 am",
